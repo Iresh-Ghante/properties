@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Iresh-Ghante/Propertie.git
+          clone-on-start: true
